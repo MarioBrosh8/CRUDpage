@@ -1,1 +1,35 @@
+:root {
+    --background-color: #FBF9F2;
+    --main-color: #0C0C0C;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    max-width: 40px;
+}
+
+.nav {
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav a {
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+.background {
+    background-color: var(--main-color);
+    color: var(--background-color);
+}
+
+.inputs {
+    display: grid;
+}
+
 
