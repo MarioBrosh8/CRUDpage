@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/styles/normalize.css" >
-    <link rel="stylesheet" type="text/css" href="/styles/styles.css" >
-    <script type="text/javascript" defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    
 
     <title>Kaizen TO-DO</title>
 </head>
+
 <body>
-    
+
     <header>
         <div class="nav">
             <div>
-                <a href="#"><img src="/img/logo.PNG"></a> 
+                <a href="#"><img src="/img/logo.PNG"></a>
             </div>
             <div>
                 <a>Kaizen To-Do List</a>
             </div>
             <div>
-                <a href="#"><img src="/img/lista.png"></a> 
+                <a href="#"><img src="/img/lista.png"></a>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="background">
-            <h3 class="title">What do you have to do?</h3>
 
-            <div class="">
-    
+        <header>
+            <div class="background">
+            <div class="formFather">
+                <h3>Que tienes por hacer?</h3>
+                <form action="#" id="formulario">
+ 
+                        <input type="text" id="nombre" placeholder="Ingresa un nombre">
+                        <input type="text" id="puesto" placeholder="Ingresa tu puesto">
+                        <button type="submit" id="btnAgregar">Agregar</button>
+     
+                </form>
+
+                <h3>Lista de tareas</h3>
+                <div class="lista-tareas">
+                </div>
             </div>
-            <div class="">
-    
+
             </div>
-            <div class="">
-    
-            </div>
-            <div class="">
-    
-            </div>
-        </div>
+        </header>
+
     </main>
-    
+    <script src="/script.js"></script>
 </body>
+
 </html>

@@ -3,6 +3,8 @@
     --main-color: #0C0C0C;
 }
 
+
+
 h3 {
     text-align: center;
 }
@@ -24,12 +26,44 @@ img {
 }
 
 .background {
+    border-radius: 10px;
+    margin: auto;
+    max-width: 80%;
     background-color: var(--main-color);
     color: var(--background-color);
 }
 
-.inputs {
-    display: grid;
+.formFather {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
+input {
+    border-style: solid;
+    border-color: var(--main-color);
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem;
+}
 
+.submit_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    background-color: var(--background-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: purple;
+    border-color: purple;
+    cursor: pointer;
+}
