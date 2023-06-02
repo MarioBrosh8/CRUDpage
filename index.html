@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="/styles/styles.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&display=swap" rel="stylesheet">
+
 
     <title>Kaizen TO-DO</title>
 </head>
@@ -29,29 +32,27 @@
     </header>
 
     <main>
-
-        <header>
-            <div class="background">
+        <div class="background">
             <div class="formFather">
                 <h3>Que tienes por hacer?</h3>
-                <form action="#" id="formulario">
- 
-                        <input type="text" id="nombre" placeholder="Ingresa un nombre">
-                        <input type="text" id="puesto" placeholder="Ingresa tu puesto">
-                        <button type="submit" id="btnAgregar">Agregar</button>
-     
-                </form>
 
-                <h3>Lista de tareas</h3>
-                <div class="lista-tareas">
+                <form action="#" id="formulario">
+                    <input type="text" id="nombre" placeholder="Fecha Limite">
+                    <input type="text" id="puesto" placeholder="Tarea">
+                    <button type="submit" id="btnAgregar">Agregar</button>
+                </form>
+            </div>
+
+            <h3>Lista de tareas</h3>
+            <div class="lista-tareas">
+
+                <div class="tareas">
                 </div>
             </div>
-
-            </div>
-        </header>
+        </div>
 
     </main>
-    <script src="/script.js"></script>
+    <script src="/script.js" defer></script>
 </body>
 
 </html>
